@@ -1,3 +1,10 @@
+@font-face {
+    font-family: montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+    width: 816px;
+}
 .contact {
     position: relative;
     width: 340px;
@@ -6,14 +13,59 @@
 }
 .profilepic {
     width: 136px;
-    margin: 68px 68px 136px;
+    height: 136px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+    margin-left: 68px;
 }
 .titles {
-    text-align: center;
+    position: relative;
+    margin-left: 68px;
     text-transform: uppercase;
     color: #FFFFFF;
     font-family: montserrat;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
+}
+hr {
+    border: 1px solid #6CD0DB;
+    display: block;
+    margin-top: 50px;
+    border-style: inset;
+    border-width: 1px;
+    
+}
+.titles2 {
+    position: relative;
+    margin-left: 68px;
+    margin-top: 97px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+.subInf {
+    line-height: 39.0px;
+    margin-left: 68px;
+    text-transform: uppercase;
+    color: #6CD0DB;
+    font-family: 'Crimson Text Regular';
+    font-size: 16px;
+    font-style: normal;
+}
+.data {
+    line-height: 21.72px;
+    margin-left: 68px;
+    margin-right: 68px;
+    color: #ffffff;
+    font-family: 'Crimson Text Regular';
+    font-size: 16px;
+    font-style: normal;
+
+}
+.principal {
+
 }
