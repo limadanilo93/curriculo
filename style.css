@@ -1,0 +1,19 @@
+.contact {
+    position: relative;
+    width: 340px;
+    height: 1054px;
+    background-color:#3C3C3C;
+}
+.profilepic {
+    width: 136px;
+    margin: 68px 68px 136px;
+}
+.titles {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
