@@ -2,12 +2,16 @@
     font-family: montserrat;
     src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
+.container {
+    display:flex;
+    flex-direction:row;
+    width: 816px;
+    height: 1054px;
+}
 /*Seção Esquerda*/ 
 .contact {
-    display: inline-block;
     position: relative;
     width: 340px;
-    height: 1054px;
     background-color:#3C3C3C;
 }
 .profilepic {
@@ -83,10 +87,8 @@ hr {
 }
 /*Seção Direita*/ 
 .principal {
-    display: inline-block;
-    position: absolute;
+    position: relative;
     width: 476px;
-    height: 1054px;
     background-color:#FFFFFF;
 }
 h1 {
