@@ -2,7 +2,7 @@
     font-family: montserrat;
     src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
-
+/*Seção Esquerda*/ 
 .contact {
     display: inline-block;
     position: relative;
@@ -16,7 +16,9 @@
     margin-top: 68px;
     margin-bottom: 68px;
     margin-left: 68px;
+    border: 1px solid #6CD0DB;
 }
+
 .titles {
     position: relative;
     margin-left: 68px;
@@ -69,6 +71,17 @@ hr {
     font-style: normal;
 
 }
+/* Efeitos da Seção */
+.profilepic:hover {
+    width: 150px;
+    height: 150px;
+}
+.titles:hover, .titles2:hover {
+    color: #fd8a8a;
+    font-size: 36px;
+    font-style: italic;
+}
+/*Seção Direita*/ 
 .principal {
     display: inline-block;
     position: absolute;
@@ -153,13 +166,7 @@ h1 {
     border-radius: 50%;
     display: inline-block;
   }
-  .dotfull1 {
-    height: 10px;
-    width: 10px;
-    background-color: #6CD0DB;
-    border-radius: 50%;
-    display: inline-block;
-  }
+
 .dotempty {
     height: 10px;
     width: 10px;
