@@ -5,13 +5,15 @@
 .container {
     display:flex;
     flex-direction:row;
-    width: 816px;
-    height: 1054px;
+    max-width:100%;
+    justify-content: center;
+    
 }
 /*Seção Esquerda*/ 
 .contact {
     position: relative;
     width: 340px;
+    height: 1054px;
     background-color:#3C3C3C;
 }
 .profilepic {
@@ -60,7 +62,8 @@ hr {
     margin-left: 68px;
     text-transform: uppercase;
     color: #6CD0DB;
-    font-family: 'Crimson Text Regular';
+    font-family: montserrat;
+    font-weight: 500;
     font-size: 16px;
     font-style: normal;
 }
@@ -73,6 +76,7 @@ hr {
     font-family: 'Crimson Text Regular';
     font-size: 16px;
     font-style: normal;
+    
 
 }
 /* Efeitos da Seção */
@@ -89,6 +93,7 @@ hr {
 .principal {
     position: relative;
     width: 476px;
+    height: 1054px;
     background-color:#FFFFFF;
 }
 h1 {
@@ -111,6 +116,7 @@ h1 {
     font-family: 'Crimson Text Regular';
     font-size: 16px;
     font-style: normal;
+    font-weight: 600;;
 }
 .area1 {
     position: relative;
@@ -145,6 +151,7 @@ h1 {
     font-family: 'Crimson Text Regular';
     font-size: 16px;
     font-style: normal;
+    font-weight:600;
 }
 .info3 {
     display: inline-block;
@@ -156,6 +163,7 @@ h1 {
     font-family: 'Crimson Text Regular';
     font-size: 16px;
     font-style: normal;
+    font-weight:600;
 }
 .dots {
     float: right;
