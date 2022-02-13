@@ -9,4 +9,4 @@ Ver o resultado:
 
 [Ver página em GitHub pages](https://limadanilo93.github.io)
 
-![alt text](./img/2022-02-13 (3).png "Still")
+![alt text](https://github.com/limadanilo93/limadanilo93.github.io/blob/main/img/2022-02-13%20(3).png)
